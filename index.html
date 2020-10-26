@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Google Picker Example</title>
+        <script src="https://kit.fontawesome.com/397a21389a.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+        <script src="GooglePicker.js"></script>
+    </head>
+
+    <body>
+        <div class="big-container">
+            <div class="container">
+                <!-- MODAL -->
+
+                <!-- MODAL END -->
+                <h3 class="title">Google drive downloader <i class="fab fa-google-drive"></i></h3>
+                <a href="https://github.com/allw-apps/drive-downloader" target="_blank" class="hover">
+                    <img class="avatar" src="https://avatars0.githubusercontent.com/u/61089054?s=460&v=4" alt="avatar">
+                </a>
+                <h4>BeToBe#3537</h4>
+
+                <div class="google-btn">
+                    <div class="google-icon-wrapper">
+                        <img class="google-icon-svg" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                    </div>
+                    <p class="btn-text"><b>Sign in with Google</b></p>
+                </div>
+                <a href="#" style="display: none" target="_blank" id="text-container"></a>
+            </div>
+        </div>
+
+        <!-- The Google API Loader script. -->
+        <script type="text/javascript" src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+    </body>
+</html>
